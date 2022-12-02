@@ -6,7 +6,8 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "tbl_games")
-class Game {
+class
+Game {
 
     @PrimaryKey(autoGenerate = true) var id = 0
     var nome = ""
