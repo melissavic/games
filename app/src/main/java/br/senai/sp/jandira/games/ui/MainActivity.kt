@@ -34,10 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding.idButtonLogin.setOnClickListener(){
             login()
         }
-//        binding.buttonNextPage.setOnClickListener(){
-//            var op = Intent(this, ActivityGames::class.java)
-//            startActivity(op)
-//        }
+
 
     }
 
@@ -45,29 +42,16 @@ class MainActivity : AppCompatActivity() {
         if(validate()){
             val email = binding.idInputEmail.text.toString()
             val password = binding.idInputPassword.text.toString()
-//            val db =
-//
-//
-//            val email_validate =db.toString("email", "Email não encontrado")
-//            val pass_validate = db.("password","Senha não encontrada" )
 
-
-//            if(email == email_validate && password == pass_validate){
-//                val activity_profile = Intent(this, activity_games::class.java)
-//                    startActivity(activity_profile)
-//            }
-//            else{
-//                Toast.makeText(this,"Algo deu errado, tente novamente ", Toast.LENGTH_LONG).show()
-//            }
         }
     }
     private fun validate():Boolean{
         if(binding.idInputEmail.text.isEmpty()){
-            binding.idInputEmail.error = "O email é obrigatório"
+            binding.idInputEmail.error = "O email é obrigatório!"
             return false
         }
         if(binding.idInputPassword.text.isEmpty()){
-            binding.idInputPassword.error = "A senha é obrigatória"
+            binding.idInputPassword.error = "A senha é obrigatória!"
             return false
         }
         return true

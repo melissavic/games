@@ -31,9 +31,9 @@
     <string name="settings_menu">Configurações</string>
     <string name="exit_menu">Sair</string>
     <string name="name_test">Melissa Victória </string>
-    <string name="email_test">melzinhalacerdaaraujo@gmail.com</string>
+    <string name="email_test">melzinha@gmail.com</string>
     <string name="age_test">Idade</string>
-    <string name="age_test_n">16</string>
+    <string name="age_test_n">17</string>
     <string name="games_finished">Jogos Terminados</string>
     <string name="games_finished_n">35</string>
     <string name="games_currently">Jogos em Curso</string>
@@ -41,6 +41,9 @@
     <string name="games_registered">Seus jogos cadastrados</string>
     <string name="title_holder">a</string>
     <string name="description_holder">a</string>
+    <string name="jogos_cadastros">Seus jogos cadastrados</string>
+    <string name="streetfighter">Street Fighter</string>
+    <string name="textstreet">Street Fighter, popularmente abreviado para SF, é uma popular série de jogos de luta.</string>
 
     <array name="console">
         <item>Playstation 5</item>

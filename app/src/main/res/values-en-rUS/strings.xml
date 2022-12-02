@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Games</string>
+    <string name="login_title">Login</string>
+    <string name="welcome"> Welcome !</string>
+    <string name="text_description"> With our app it will be very easy and fun to keep control of your games! </string>
+    <string name="email">Email</string>
+    <string name="password"> Password </string>
+    <string name="remember_me"> Remember me</string>
+    <string name="login_button"> Log in </string>
+    <string name="create_account"> Create new account </string>
+    <string name="copyright">Developed by Melissa Victória</string>
+    <string name="new_account_tittle">New account </string>
+    <string name="choice_photo"> Shall we choose a photo?</string>
+    <string name="data_autentic_title">Data for authentication </string>
+    <string name="personal_data_titulo">Personal data</string>
+    <string name="name_question">What is your name?</string>
+    <string name="city_question">What is your city? </string>
+    <string name="birth_date_question"> Birth date</string>
+    <string name="gamer_level_question"> What is your gamer level?</string>
+    <string name="gamer_level_type">Noob</string>
+    <string name="gamer_level">Gamer level </string>
+    <string name="console_type_question"> What is your favorite console</string>
+    <string name="console_type_answer">Super Nintendo</string>
+    <string name="title_sex"> Gender:</string>
+    <string name="female">Feminine</string>
+    <string name="male">Masculine</string>
+    <string name="title_activity_signup">Signup_activity</string>
+    <string name="title_new_account">New account </string>
+    <string name="pick_photo_question">Shall we choose a photo?</string>
+    <string name="save_menu">Save </string>
+    <string name="settings_menu">Configuration </string>
+    <string name="exit_menu">Exit </string>
+    <string name="name_test">Melissa Victória </string>
+    <string name="email_test">melzinha@gmail.com</string>
+    <string name="age_test">Age</string>
+    <string name="age_test_n">17</string>
+    <string name="games_finished"> Finished games</string>
+    <string name="games_finished_n">35</string>
+    <string name="games_currently">Ongoing games</string>
+    <string name="games_currently_n">06</string>
+    <string name="games_registered">Your registered games</string>
+    <string name="title_holder">a</string>
+    <string name="description_holder">a</string>
+    <string name="jogos_cadastros">Your registered games</string>
+    <string name="streetfighter">Street Fighter</string>
+    <string name="textstreet"> Street Fighter, popularly abbreviated to SF, is a popular fighting game series.</string>
+
+    <array name="console">
+        <item>Playstation 5</item>
+        <item>Playstation 4</item>
+        <item>Playstation 3</item>
+        <item>Playstation 2</item>
+        <item>Playstation</item>
+        <item>Polystation</item>
+        <item>Xbox Series X</item>
+        <item>Xbox Series S</item>
+        <item>Xbox One</item>
+        <item>Xbox 360</item>
+        <item>Xbox</item>
+        <item>Nintendo 64</item>
+        <item>Desktop</item>
+        <item>GameCube</item>
+        <item>Megadrive</item>
+    </array>
+
+
+
+
+
+
+</resources>

@@ -206,6 +206,30 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.985"
         tools:listitem="@layout/activity_holder_layout" />
+
+    <TextView
+        android:id="@+id/textjogoscadastrados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogos_cadastros"
+        android:textColor="@color/darkblue_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rv_games"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/textjogoscadastrados"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/joystick_icon"
+        tools:layout_editor_absoluteY="219dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

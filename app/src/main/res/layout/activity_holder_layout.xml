@@ -46,9 +46,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/text_view_holder"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.063"
+                app:layout_constraintHorizontal_bias="0.066"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_holder" />
+                app:layout_constraintTop_toBottomOf="@+id/image_holder"
+                tools:text="@string/streetfighter" />
 
             <TextView
                 android:id="@+id/text_view_holder"
@@ -59,7 +60,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.148"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_title_holder" />
+                app:layout_constraintTop_toBottomOf="@+id/text_title_holder"
+                tools:text="@string/textstreet" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -71,23 +71,6 @@ class SignupActivity : AppCompatActivity() {
         finish()
 
 
-//        val dados = getSharedPreferences("dados", MODE_PRIVATE)
-//
-//        val editor = dados.edit()
-//
-//        editor.putInt("id", user.id)
-//        editor.putString("nome",user.nome)
-//        editor.putString("email", user.email)
-//        editor.putString("senha", user.senha)
-//        editor.putString("cidade", user.cidade)
-//
-//        if (editor.commit()){
-//            Toast.makeText(this, "O registro do usuário foi bem sucedido", Toast.LENGTH_SHORT).show()
-//            finish()
-//        }
-//        else{
-//            Toast.makeText(this, "Erro no registro", Toast.LENGTH_SHORT).show()
-//        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
